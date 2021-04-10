@@ -27,7 +27,7 @@ print(friends)
 friends.pop() #removes last item from list
 print(friends)
 
-print(friends.index("Laura"))  #returns index of spesific list item
+print(friends.index("Laura"))  #returns index of specific list item
 
 ### more functions
 # count -> returns count of specific list item
