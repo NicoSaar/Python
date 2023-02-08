@@ -1,3 +1,6 @@
+# Check if a given number is a prime number or not.
+# Return True or False depending on the result
+
 from math import sqrt
 
 
