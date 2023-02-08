@@ -4,20 +4,22 @@ import CheckIfPrime
 
 class TestPrime(unittest.TestCase):
 
+    # prime numbers false
     def test_prime1(self):
-        self.assertEqual(CheckIfPrime.main(4), False)
+        self.assertFalse(CheckIfPrime.main(4))
 
     def test_prime2(self):
-        self.assertEqual(CheckIfPrime.main(3), True)
+        self.assertFalse(CheckIfPrime.main(15))
 
     def test_prime3(self):
-        self.assertEqual(CheckIfPrime.main(1), False)
+        self.assertFalse(CheckIfPrime.main(1))
 
+    # Prime numbers true
     def test_prime4(self):
-        self.assertEqual(CheckIfPrime.main(11), True)
+        self.assertTrue(CheckIfPrime.main(11))
 
     def test_prime5(self):
-        self.assertEqual(CheckIfPrime.main(15), False)
+        self.assertTrue(CheckIfPrime.main(3))
 
     def test_prime6(self):
-        self.assertEqual(CheckIfPrime.main(2137), True)
+        self.assertTrue(CheckIfPrime.main(2137))
